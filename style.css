@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.descricao{
+    display: inline-block;
+    background-color: #fff;
+    width: 60%;
+    margin-top: 18%;
+    padding-left: 136px;
+    
+    
+}
+
+.descricao__titulo{
+    font-size: 70px;
+    font-weight: 400;
+    color: #5d5d7d;
+    width: 368px;
+   
+}
+
+.descricao__text{
+    font-size: 28px;
+    font-weight: 400;
+    color: rgba(93,93,125,0.6);
+    width: 540px;
+    margin: 15px 0;
+   
+}
+
+.button{
+    background-color: #9499EA;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 36px;
+    outline: none;
+    border: 1px solid #ccc;
+    width: 269px;
+    height: 62px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+.button:active{
+    opacity: 0.5;
+}
+
+.principal{
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+   
+
+}
+
+.principal__item{
+    color: #5d5d7d;
+    font-size: 28px;
+    font-weight: 400;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.principal__item:nth-child(2){
+    color: rgba(93, 93, 125, 0.4);
+}
+
+.principal__image{
+    width: 456px;
+    position: relative;
+    top: 125px;
+    right: 150px;
+    
+}
+
+
+@media screen and (max-width: 900px) {
+    
+    .descricao{
+        display: block;
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .descricao__titulo{
+        font-size: 36px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+    }
+
+    .descricao__text{
+        margin: 15px 40px;
+        width: auto;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .button{
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+    .principal{
+        display: block;
+        width: 100%;
+        height: 50%;
+        position: static;
+        margin: 0;
+    }
+
+    .principal__image{
+        display: block;
+        margin: 0 auto;
+        position: static;
+        max-width: 200px;
+        padding-top: 100px;
+        
+    }
+
+    .principal__cabecalho{
+        display: none;
+    }
+
+   
+    
+}
