@@ -9,5 +9,6 @@
 <h3>Versão para Desktop:</h3>
 <img src="https://github.com/RafaelSPro/Projeto/blob/main/Imagens/easy-shoppingpc.JPG?raw=true"/>
 <br>
-<h3>VErsão para Mobile</h3>
+<h3>VErsão para Mobile:</h3>
+<img src="https://github.com/RafaelSPro/Projeto/blob/main/Imagens/easy-shoppingmobile.JPG?raw=true"/>
 
